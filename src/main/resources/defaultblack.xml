@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--    black pieces-->
+    <bean id="cellBlackRook1"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="A"/>
+        <constructor-arg index="1" type="int" value="8"/>
+    </bean>
+    <bean id="blackRook1"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackRook">
+        <constructor-arg ref="cellBlackRook1"/>
+    </bean>
+
+    <bean id="cellBlackKnight1"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="B"/>
+        <constructor-arg index="1" type="int" value="8"/>
+    </bean>
+    <bean id="blackKnight1"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackKnight">
+        <constructor-arg ref="cellBlackKnight1"/>
+    </bean>
+
+    <bean id="cellBlackBishop1"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="C"/>
+        <constructor-arg index="1" type="int" value="8"/>
+    </bean>
+    <bean id="blackBishop1"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackBishop">
+        <constructor-arg ref="cellBlackBishop1"/>
+    </bean>
+
+    <bean id="cellBlackQueen"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="D"/>
+        <constructor-arg index="1" type="int" value="8"/>
+    </bean>
+    <bean id="blackQueen"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackQueen">
+        <constructor-arg ref="cellBlackQueen"/>
+    </bean>
+
+    <bean id="cellBlackKing"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="E"/>
+        <constructor-arg index="1" type="int" value="8"/>
+    </bean>
+    <bean id="blackKing"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackKing">
+        <constructor-arg ref="cellBlackKing"/>
+    </bean>
+
+    <bean id="cellBlackBishop2"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="F"/>
+        <constructor-arg index="1" type="int" value="8"/>
+    </bean>
+    <bean id="blackBishop2"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackBishop">
+        <constructor-arg ref="cellBlackBishop2"/>
+    </bean>
+
+    <bean id="cellBlackKnight2"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="G"/>
+        <constructor-arg index="1" type="int" value="8"/>
+    </bean>
+    <bean id="blackKnight2"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackKnight">
+        <constructor-arg ref="cellBlackKnight2"/>
+    </bean>
+
+    <bean id="cellBlackRook2"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="H"/>
+        <constructor-arg index="1" type="int" value="8"/>
+    </bean>
+    <bean id="blackRook2"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackRook">
+        <constructor-arg ref="cellBlackRook2"/>
+    </bean>
+
+    <bean id="cellBlackPawn1"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="A"/>
+        <constructor-arg index="1" type="int" value="7"/>
+    </bean>
+    <bean id="blackPawn1"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackPawn">
+        <constructor-arg ref="cellBlackPawn1"/>
+    </bean>
+
+    <bean id="cellBlackPawn2"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="B"/>
+        <constructor-arg index="1" type="int" value="7"/>
+    </bean>
+    <bean id="blackPawn2"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackPawn">
+        <constructor-arg ref="cellBlackPawn2"/>
+    </bean>
+
+    <bean id="cellBlackPawn3"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="C"/>
+        <constructor-arg index="1" type="int" value="7"/>
+    </bean>
+    <bean id="blackPawn3"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackPawn">
+        <constructor-arg ref="cellBlackPawn3"/>
+    </bean>
+
+    <bean id="cellBlackPawn4"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="D"/>
+        <constructor-arg index="1" type="int" value="7"/>
+    </bean>
+    <bean id="blackPawn4"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackPawn">
+        <constructor-arg ref="cellBlackPawn4"/>
+    </bean>
+
+    <bean id="cellBlackPawn5"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="E"/>
+        <constructor-arg index="1" type="int" value="7"/>
+    </bean>
+    <bean id="blackPawn5"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackPawn">
+        <constructor-arg ref="cellBlackPawn5"/>
+    </bean>
+
+    <bean id="cellBlackPawn6"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="F"/>
+        <constructor-arg index="1" type="int" value="7"/>
+    </bean>
+    <bean id="blackPawn6"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackPawn">
+        <constructor-arg ref="cellBlackPawn6"/>
+    </bean>
+
+    <bean id="cellBlackPawn7"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="G"/>
+        <constructor-arg index="1" type="int" value="7"/>
+    </bean>
+    <bean id="blackPawn7"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackPawn">
+        <constructor-arg ref="cellBlackPawn7"/>
+    </bean>
+
+    <bean id="cellBlackPawn8"
+          class="com.epam.rd.autotasks.chesspuzzles.Cell"
+          scope="prototype"
+          factory-method="cell">
+        <constructor-arg index="0" type="char" value="H"/>
+        <constructor-arg index="1" type="int" value="7"/>
+    </bean>
+    <bean id="blackPawn8"
+          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackPawn">
+        <constructor-arg ref="cellBlackPawn8"/>
+    </bean>
+
+</beans>

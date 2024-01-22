@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks.chesspuzzles.chessPieces;
+package com.epam.rd.autotasks.chesspuzzles.chess_pieces;
 
 import com.epam.rd.autotasks.chesspuzzles.Cell;
 import com.epam.rd.autotasks.chesspuzzles.ChessPiece;
@@ -7,11 +7,10 @@ import com.epam.rd.autotasks.chesspuzzles.ChessPiece;
  * @author Denys Parshutkin
  * @version 1.0.0
  */
-public class WhiteKing implements ChessPiece {
-
+public class WhiteBishop implements ChessPiece {
     private final Cell cell;
 
-    public WhiteKing(Cell cell) {
+    public WhiteBishop(Cell cell) {
         this.cell = cell;
     }
 
@@ -22,6 +21,6 @@ public class WhiteKing implements ChessPiece {
 
     @Override
     public char toChar() {
-        return 'k';
+        return 'b';
     }
 }

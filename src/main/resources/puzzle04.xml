@@ -18,7 +18,7 @@
         <constructor-arg index="1" type="int" value="6"/>
     </bean>
     <bean id="whiteBishop1"
-          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.WhiteBishop">
+          class="com.epam.rd.autotasks.chesspuzzles.chess_pieces.WhiteBishop">
         <constructor-arg ref="cellWhiteBishop1"/>
     </bean>
 
@@ -31,7 +31,7 @@
         <constructor-arg index="1" type="int" value="7"/>
     </bean>
     <bean id="whiteKing"
-          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.WhiteKing">
+          class="com.epam.rd.autotasks.chesspuzzles.chess_pieces.WhiteKing">
         <constructor-arg ref="cellWhiteKing"/>
     </bean>
 
@@ -44,7 +44,7 @@
         <constructor-arg index="1" type="int" value="4"/>
     </bean>
     <bean id="whitePawn1"
-          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.WhitePawn">
+          class="com.epam.rd.autotasks.chesspuzzles.chess_pieces.WhitePawn">
         <constructor-arg ref="cellWhitePawn1"/>
     </bean>
 
@@ -56,7 +56,7 @@
         <constructor-arg index="1" type="int" value="3"/>
     </bean>
     <bean id="whitePawn2"
-          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.WhitePawn">
+          class="com.epam.rd.autotasks.chesspuzzles.chess_pieces.WhitePawn">
         <constructor-arg ref="cellWhitePawn2"/>
     </bean>
 
@@ -72,7 +72,7 @@
         <constructor-arg index="1" type="int" value="1"/>
     </bean>
     <bean id="blackQueen"
-          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackQueen">
+          class="com.epam.rd.autotasks.chesspuzzles.chess_pieces.BlackQueen">
         <constructor-arg ref="cellBlackQueen"/>
     </bean>
 
@@ -84,7 +84,7 @@
         <constructor-arg index="1" type="int" value="5"/>
     </bean>
     <bean id="blackKing"
-          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackKing">
+          class="com.epam.rd.autotasks.chesspuzzles.chess_pieces.BlackKing">
         <constructor-arg ref="cellBlackKing"/>
     </bean>
 
@@ -97,7 +97,7 @@
         <constructor-arg index="1" type="int" value="4"/>
     </bean>
     <bean id="blackPawn1"
-          class="com.epam.rd.autotasks.chesspuzzles.chessPieces.BlackPawn">
+          class="com.epam.rd.autotasks.chesspuzzles.chess_pieces.BlackPawn">
         <constructor-arg ref="cellBlackPawn1"/>
     </bean>
 

@@ -1,4 +1,4 @@
-package com.epam.rd.autotasks.chesspuzzles.chessPieces;
+package com.epam.rd.autotasks.chesspuzzles.chess_pieces;
 
 import com.epam.rd.autotasks.chesspuzzles.Cell;
 import com.epam.rd.autotasks.chesspuzzles.ChessPiece;
